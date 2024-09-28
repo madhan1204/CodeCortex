@@ -1,0 +1,33 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: flex-start; /* Aligns items to the start */
+    align-items: center; /* Vertically centers the items */
+    padding: 10px 20px; /* Adds padding */
+    background-color: #282c34; /* Same as the App background */
+    z-index: 2; /* Ensures the navbar is above other elements */
+  }
+  
+  .navbar-title {
+    margin-right: 1200px; /* A little margin to the left */
+    color: #61dafb; /* Color for the title */
+    font-size: 25px;
+    font-family: 'Lucida Handwriting', cursive;;
+  }
+  
+  .navbar-links {
+    display: flex; /* Flex layout for links */
+    margin-right: 45px; /* Pushes the links to the right */
+  }
+  
+  .navbar-links a {
+    color: white; /* Color for the links */
+    text-decoration: none; /* Removes underline */
+    margin-left: 20px; /* Space between links */
+    font-size: 18px;
+  }
+  
+  .navbar-links a:hover {
+    text-decoration: underline; /* Underline on hover */
+  }
+  
